@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en" class="dark-mode">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Nasser - Data Engineer && Data Analyst Portfolio</title>
+    <meta name="description" content="Portfolio of Ahmed Nasser, Data Engineer && Data Analyst. Student at FCAI Cairo University.">
+    <!-- Preload LCP Hero Image (Optimized 354x354 WebP) -->
+    <link rel="preload" as="image" href="assets/profile-photo.webp" type="image/webp" fetchpriority="high">
+
+    <!-- Preload Critical Heading Font -->
+    <link rel="preload" href="assets/fonts/outfit_QGYvz_MVcBeNP4NJtEtq.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Local Self-Hosted Optimized Fonts (Alexandria, Fira Code, Inter, Outfit with font-display: swap) -->
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <!-- Main Stylesheet -->
+    <link rel="preload" href="MyStyle.css" as="style">
+    <link rel="stylesheet" href="MyStyle.css">
+</head>
+<body class="dark-mode">
+
+    <!-- 1. COVER PAGE (HEADER) -->
+    <header class="hero-cover" id="cover">
+        <div class="hero-content">
+            <div class="profile-section">
+                <div class="profile-image-container">
+                    <img src="assets\images\Bugs Bunny.jpg" alt="Ahmed Nasser - Data Engineer && Data Analyst" class="profile-image" id="profile-image" width="354" height="354" fetchpriority="high" decoding="sync">
+                </div>
+                <div class="profile-text">
+                    <h1 data-i18n="hero.name">Ahmed Nasser</h1>
+                    <p class="profile-headline" data-i18n="hero.headline">
+                        Data Engineer && Data Analyst
+                    </p>
+                    <p class="profile-subline" data-i18n="hero.subline">Excellent IS Student @ FCAI Cairo University</p>
+                    <div class="header-cta-group">
+                        <a href="Ahmed_Nasser_Resume.pdf" download class="btn-primary">
+                            <svg class="svg-icon" style="--icon: url('assets/icons/file-arrow-down.svg')"></svg> <span data-i18n="hero.btn_resume">Download Resume</span>
+                        </a>
+                        <a href="#contact" class="btn-secondary">
+                            <svg class="svg-icon" style="--icon: url('assets/icons/paper-plane.svg')"></svg> <span data-i18n="hero.btn_contact">Contact Me</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="main-nav" aria-label="Main Navigation">
+        <ul>
+            <li><a href="#about"><svg class="svg-icon" style="--icon: url('assets/icons/user.svg')"></svg> <span data-i18n="nav.about">About</span></a></li>
+            <li><a href="#experience"><svg class="svg-icon" style="--icon: url('assets/icons/briefcase.svg')"></svg> <span data-i18n="nav.experience">Experience</span></a></li>
+            <li><a href="#education"><svg class="svg-icon" style="--icon: url('assets/icons/graduation-cap.svg')"></svg> <span data-i18n="nav.education">Education</span></a></li>
+            <li><a href="#skills"><svg class="svg-icon" style="--icon: url('assets/icons/code.svg')"></svg> <span data-i18n="nav.skills">Skills</span></a></li>
+            <li><a href="#projects"><svg class="svg-icon" style="--icon: url('assets/icons/diagram-project.svg')"></svg> <span data-i18n="nav.projects">Projects</span></a></li>
+            <li><a href="#certificate"><svg class="svg-icon" style="--icon: url('assets/icons/certificate.svg')"></svg> <span data-i18n="nav.certificates">Certificate</span></a></li>
+            <li><a href="#contact"><svg class="svg-icon" style="--icon: url('assets/icons/envelope.svg')"></svg> <span data-i18n="nav.contact">Contact</span></a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <!-- 2. ABOUT ME -->
+        <section id="about">
+            <h2 class="section-title"><svg class="svg-icon" style="--icon: url('assets/icons/user-astronaut.svg')"></svg> <span data-i18n="about.title">About Me</span></h2>
+            
+            <div class="card">
+                <p class="about-bio" data-i18n="about.bio1">
+                    I am an Information Systems (IS) student at Cairo University (Faculty of Computers and Artificial Intelligence) specializing in Data Engineering and Data Analytics. I design scalable relational database architectures (PostgreSQL/SQL), construct efficient ETL/ELT pipelines, and automate complex data workflows to ensure high-performance, production-ready data delivery.
+                </p>
+                <p class="about-bio" style="margin-top: 1.2rem;" data-i18n="about.bio2">
+                    Leveraging Python (Pandas, NumPy, Seaborn), Advanced SQL, and workflow automation tools, I perform in-depth Exploratory Data Analysis (EDA), model structured datasets, and build data visualization pipelines. I bridge raw data infrastructure with business strategy to deliver high-impact analytics solutions that drive strategic decision-making.
+                </p>
+
+                <div class="language-list">
+                    <div class="language-item" data-i18n-html="about.lang_en">
+                        <svg class="svg-icon" style="color: var(--theme-primary); --icon: url('assets/icons/globe.svg')"></svg>
+                        <span><strong>English:</strong> Advanced</span>
+                    </div>
+                    <div class="language-item" data-i18n-html="about.lang_ar">
+                        <svg class="svg-icon" style="color: var(--theme-primary); --icon: url('assets/icons/language.svg')"></svg>
+                        <span><strong>Arabic:</strong> Native</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. EXPERIENCE -->
+        <section id="experience">
+            <h2 class="section-title"><svg class="svg-icon" style="--icon: url('assets/icons/briefcase.svg')"></svg> <span data-i18n="experience.title">Experience & Internships</span></h2>
+
+            <div class="experience-log-table">
+                <!-- DEPI -->
+                <div class="experience-log-row">
+                    <div class="exp-header">
+                        <span class="exp-role" data-i18n="experience.depi_role">Data Analyst Trainee</span>
+                        <span class="exp-date" data-i18n="experience.depi_date">2026 - Present</span>
+                    </div>
+                    <div class="exp-org" data-i18n-html="experience.depi_org">Digital Egypt Pioneers Initiative (DEPI) &bull; <span class="exp-loc">Cairo, Egypt</span></div>
+                    <ul class="exp-bullet-list">
+                        <li data-i18n="experience.depi_b1">Extracting, cleaning, and preparing multi-source datasets to conduct exploratory data analysis and deliver actionable insights.</li>
+                        <li data-i18n="experience.depi_b2">Building interactive data visualization dashboards and automated reporting pipelines.</li>
+                        <li data-i18n="experience.depi_b3">Applying modern data analytics frameworks, statistical techniques, and ETL processes using Python and SQL.</li>
+                    </ul>
+                </div>
+
+                <!-- HUAWEI -->
+                <div class="experience-log-row">
+                    <div class="exp-header">
+                        <span class="exp-role" data-i18n="experience.huawei_role">Big Data Intern</span>
+                        <span class="exp-date" data-i18n="experience.huawei_date">September 2026 - Present</span>
+                    </div>
+                    <div class="exp-org" data-i18n-html="experience.huawei_org">Huawei Ministry of Youth Academy &bull; <span class="exp-loc">Cairo, Egypt</span></div>
+                    <ul class="exp-bullet-list">
+                        <li data-i18n="experience.huawei_b1">Learning the core foundations of Big Data, including the 5 Vs, distributed storage, and parallel processing, along with the Hadoop ecosystem (HDFS, MapReduce, YARN) for handling large-scale datasets.</li>
+                        <li data-i18n="experience.huawei_b2">Practicing large-scale data processing and analysis with Apache Spark and Hive, building SQL and Python (PySpark) workflows to clean, transform, and query massive structured and semi-structured data.</li>
+                        <li data-i18n="experience.huawei_b3">Exploring batch and real-time data ingestion pipelines and data warehouse architectures, and applying best practices to build scalable, reliable pipelines that feed analytics and decision-making.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. EDUCATION -->
+        <section id="education">
+            <h2 class="section-title"><svg class="svg-icon" style="--icon: url('assets/icons/graduation-cap.svg')"></svg> <span data-i18n="education.title">Education</span></h2>
+
+            <div class="card education-card">
+                <div class="education-header">
+                    <div>
+                        <h3 data-i18n="education.degree">Bachelor of Science in Computer Science</h3>
+                        <div class="education-school" data-i18n="education.school">Faculty of Computers and Artificial Intelligence, Cairo University</div>
+                    </div>
+                    <span class="metric-badge" data-i18n-html="education.badge_year">
+                        <svg class="svg-icon" style="--icon: url('assets/icons/calendar-check.svg')"></svg> Expected 2029 (Currently 2nd Year)
+                    </span>
+                </div>
+                <div class="education-metrics">
+                    <span class="metric-badge" data-i18n-html="education.badge_major"><svg class="svg-icon" style="--icon: url('assets/icons/microchip.svg')"></svg> IS Major</span>
+                    <span class="metric-badge" data-i18n-html="education.badge_gpa"><svg class="svg-icon" style="--icon: url('assets/icons/bolt.svg')"></svg> GPA: 3.1 / 4.0 - Very Good</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SKILLS -->
+        <section id="skills">
+            <h2 class="section-title"><svg class="svg-icon" style="--icon: url('assets/icons/code.svg')"></svg> <span data-i18n="skills.title">Skills Matrix</span></h2>
+
+            <div class="skills-matrix">
+                <div class="skill-panel">
+                    <h3 data-i18n-html="skills.lang_title"><svg class="svg-icon" style="--icon: url('assets/icons/terminal.svg')"></svg> Programming Languages</h3>
+                    <div class="skill-chips">
+                        <span class="tech-chip">Python</span>
+                        <span class="tech-chip">C++</span>
+                        <span class="tech-chip">SQL</span>
+                        <span class="tech-chip">JavaScript</span>
+                        <span class="tech-chip">HTML5 / CSS3</span>
+                    </div>
+                </div>
+
+                <div class="skill-panel">
+                    <h3 data-i18n-html="skills.analysis_title"><svg class="svg-icon" style="--icon: url('assets/icons/calculator.svg')"></svg> Data Analysis & Visualization</h3>
+                    <div class="skill-chips">
+                        <span class="tech-chip">Pandas</span>
+                        <span class="tech-chip">NumPy</span>
+                        <span class="tech-chip">Matplotlib</span>
+                        <span class="tech-chip">Seaborn</span>
+                        <span class="tech-chip">Power BI</span>
+                        <span class="tech-chip">Tableau</span>
+                        <span class="tech-chip">Excel</span>
+                        <span class="tech-chip">EDA</span>
+                        <span class="tech-chip">Data Cleaning</span>
+                        <span class="tech-chip">Statistical Analysis</span>
+                    </div>
+                </div>
+
+                <div class="skill-panel">
+                    <h3 data-i18n-html="skills.de_title"><svg class="svg-icon" style="--icon: url('assets/icons/diagram-project.svg')"></svg> Data Engineering</h3>
+                    <div class="skill-chips">
+                        <span class="tech-chip">ETL / ELT Pipelines</span>
+                        <span class="tech-chip">Data Modeling</span>
+                        <span class="tech-chip">Data Warehousing</span>
+                        <span class="tech-chip">Star Schema</span>
+                        <span class="tech-chip">SQLAlchemy</span>
+                        <span class="tech-chip">Apache Airflow</span>
+                        <span class="tech-chip">n8n Automation</span>
+                    </div>
+                </div>
+
+                <div class="skill-panel">
+                    <h3 data-i18n-html="skills.bigdata_title"><svg class="svg-icon" style="--icon: url('assets/icons/cube.svg')"></svg> Big Data</h3>
+                    <div class="skill-chips">
+                        <span class="tech-chip">Hadoop</span>
+                        <span class="tech-chip">HDFS</span>
+                        <span class="tech-chip">MapReduce</span>
+                        <span class="tech-chip">Apache Spark</span>
+                        <span class="tech-chip">PySpark</span>
+                        <span class="tech-chip">Hive</span>
+                        <span class="tech-chip">Kafka</span>
+                        <span class="tech-chip">Distributed Computing</span>
+                        <span class="tech-chip">Batch &amp; Stream Processing</span>
+                    </div>
+                </div>
+
+                <div class="skill-panel">
+                    <h3 data-i18n-html="skills.tools_title"><svg class="svg-icon" style="--icon: url('assets/icons/server.svg')"></svg> Databases, Tools & OS</h3>
+                    <div class="skill-chips">
+                        <span class="tech-chip">PostgreSQL</span>
+                        <span class="tech-chip">Docker</span>
+                        <span class="tech-chip">Git &amp; GitHub</span>
+                        <span class="tech-chip">VS Code</span>
+                        <span class="tech-chip">Jupyter Notebooks</span>
+                        <span class="tech-chip">Linux (Kali / Ubuntu)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. PROJECTS -->
+        <section id="projects">
+            <h2 class="section-title"><svg class="svg-icon" style="--icon: url('assets/icons/diagram-project.svg')"></svg> <span data-i18n="projects.title">Featured Projects</span></h2>
+
+            <div class="projects-stack">
+
+                <!-- Project: Customer 360 Analytics -->
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <div>
+                            <h3 class="project-title" data-i18n="projects.c360_title">Customer 360 Analytics</h3>
+                            <span style="color: var(--theme-primary); font-size: 0.9rem; font-weight: 600;" data-i18n="projects.c360_subtitle">Data Cleaning, Integration &amp; EDA across 9 CSV Files</span>
+                        </div>
+                        <span class="project-badge" data-i18n="projects.c360_badge">Data Analytics | EDA</span>
+                    </div>
+
+                    <div class="ultratube-carousel customer360-gallery">
+                        <div class="carousel-slide">
+                            <img src="assets\images\customer360-heatmap.webp" alt="Customer 360 - correlation heatmap of customer metrics" loading="lazy">
+                            <span class="slide-caption">Correlation Heatmap</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets\images\customer360-monthly-transactions.webp" alt="Customer 360 - distribution of customer account status" loading="lazy">
+                            <span class="slide-caption">Monthly Transactions</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets\images\customer360-top-countries-revenue.webp" alt="Customer 360 - average annual revenue by subscription plan" loading="lazy">
+                            <span class="slide-caption">Top 10 Countries by Total Revenue</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets\images\customer360-revenue-by-plan.webp" alt="Customer 360 - monthly transaction volume" loading="lazy">
+                            <span class="slide-caption">Revenue by Plan</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets\images\customer360-account-status.webp" alt="Customer 360 - distribution of customer account status" loading="lazy">
+                            <span class="slide-caption">Account Status</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets\images\customer360-revenue-distribution.webp" alt="Customer 360 - distribution of customer account status" loading="lazy">
+                            <span class="slide-caption">Revenue Distribution</span>
+                        </div>
+                    </div>
+
+                    <p class="project-desc" data-i18n="projects.c360_desc">
+                        An end-to-end customer analytics project that cleans and merges 9 raw CSV files (customers, subscriptions, support tickets, quarterly transactions, and marketing campaigns) into a single Customer 360 table of 1,500 customers and 31 features. It handles mixed date formats, currency strings, duplicate records, and city-country mismatches, then engineers KPIs such as a 65.1% active rate, 24.1% churn rate, and about $990 ARPU. Nineteen business questions are answered with Seaborn and Matplotlib visuals, ending in data-backed findings and recommendations on retention, support quality, and plan upselling.
+                    </p>
+
+                    <div class="tags-group">
+                        <span class="telemetry-tag">Python</span>
+                        <span class="telemetry-tag">Pandas</span>
+                        <span class="telemetry-tag">NumPy</span>
+                        <span class="telemetry-tag">Seaborn</span>
+                        <span class="telemetry-tag">Matplotlib</span>
+                        <span class="telemetry-tag">Data Cleaning</span>
+                        <span class="telemetry-tag">Data Integration</span>
+                        <span class="telemetry-tag">EDA</span>
+                        <span class="telemetry-tag">KPI Analysis</span>
+                    </div>
+                </article>
+
+                <!-- Project: Superstore Data Warehouse (SQL) -->
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <div>
+                            <h3 class="project-title" data-i18n="projects.superstore_title">Superstore Data Warehouse</h3>
+                            <span style="color: var(--theme-primary); font-size: 0.9rem; font-weight: 600;" data-i18n="projects.superstore_subtitle">PostgreSQL Star Schema, ETL &amp; 16 Analytical Queries</span>
+                        </div>
+                        <span class="project-badge" data-i18n="projects.superstore_badge">PostgreSQL | SQL</span>
+                    </div>
+
+                    <p class="project-desc" data-i18n="projects.superstore_desc">
+                        A PostgreSQL data warehouse built on the Superstore retail dataset. Raw order, manager, and returns data is loaded into a staging layer, then transformed into a star schema with one fact table and four dimension tables (customer, product, location, ship mode), enforced with primary and foreign keys and cleaned with DISTINCT ON and COALESCE logic. The project adds indexes on the join and date columns, a denormalized reporting view, and a PL/pgSQL stored procedure for yearly KPIs. Sixteen analytical queries use CTEs and window functions (LAG, RANK, NTILE, running totals) to cover profitability by category and region, discount impact, customer tiers, RFM scoring, month-over-month growth, and return rates, and EXPLAIN ANALYZE is used to verify query performance.
+                    </p>
+
+                    <div class="tags-group">
+                        <span class="telemetry-tag">PostgreSQL</span>
+                        <span class="telemetry-tag">SQL</span>
+                        <span class="telemetry-tag">Star Schema</span>
+                        <span class="telemetry-tag">Data Modeling</span>
+                        <span class="telemetry-tag">ETL</span>
+                        <span class="telemetry-tag">Window Functions</span>
+                        <span class="telemetry-tag">CTEs</span>
+                        <span class="telemetry-tag">Stored Procedures</span>
+                        <span class="telemetry-tag">Indexing</span>
+                        <span class="telemetry-tag">RFM Analysis</span>
+                    </div>
+                </article>
+
+                <!-- Project: Baby Photoshop -->
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <div>
+                            <h3 class="project-title" data-i18n="projects.photoshop_title">Baby Photoshop - C++ Image Processor</h3>
+                            <span style="color: var(--theme-primary); font-size: 0.9rem; font-weight: 600;" data-i18n="projects.photoshop_subtitle">Image Processing Application with 18 Filters + Qt Desktop GUI</span>
+                        </div>
+                        <span class="project-badge" data-i18n="projects.photoshop_badge">C++ + Qt GUI</span>
+                    </div>
+
+                    <div class="ultratube-carousel photoshop-gallery">
+                        <div class="carousel-slide">
+                            <img src="assets\images\baby-photoshop-original.jpg" alt="Baby Photoshop - Original filter sample" loading="lazy">
+                            <span class="slide-caption">Original</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets\images\baby-photoshop-black-and-white.jpg" alt="Baby Photoshop - Black &amp; White filter sample" loading="lazy">
+                            <span class="slide-caption">Black &amp; White</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets\images\baby-photoshop-edge-detection.jpg" alt="Baby Photoshop - Invert filter sample" loading="lazy">
+                            <span class="slide-caption">Edge Detection</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets\images\baby-photoshop-invert.jpg" alt="Baby Photoshop - Edge Detection filter sample" loading="lazy">
+                            <span class="slide-caption">Invert</span>
+                        </div>
+                        <div class="carousel-slide">
+    <img src="assets\images\1.jpg" alt="Baby Photoshop - Filter 5 sample" loading="lazy">
+    <span class="slide-caption">Grayscale</span>
+</div>
+<div class="carousel-slide">
+    <img src="assets\images\17.png" alt="Baby Photoshop - Filter 6 sample" loading="lazy">
+    <span class="slide-caption">oily</span>
+</div>
+<div class="carousel-slide">
+    <img src="assets\images\18.png" alt="Baby Photoshop - Filter 7 sample" loading="lazy">
+    <span class="slide-caption">Flip</span>
+</div>
+                    </div>
+
+                    <p class="project-desc" data-i18n="projects.photoshop_desc">
+                        Baby Photoshop is a desktop image-processing application written in C++, with 18 filters implemented from scratch on raw pixel data. It covers geometric transforms (rotate, flip, crop, resize, skew, merge), tonal adjustments (grayscale, black & white, invert, darken, lighten), spatial filters (blur, edge detection), and creative effects such as infrared, old TV, oil painting, purple tint, and sunlight correction. A reusable variadic-template pipeline loads, filters, and saves each image, which keeps every filter independent and easy to extend, while a Qt GUI puts the whole toolkit behind a clean desktop interface.
+                    </p>
+
+                    <div class="tags-group">
+                        <span class="telemetry-tag">Image Processing</span>
+                        <span class="telemetry-tag">C++</span>
+                        <span class="telemetry-tag">Qt</span>
+                        <span class="telemetry-tag">GUI</span>
+                        <span class="telemetry-tag">Pixel Manipulation</span>
+                        <span class="telemetry-tag">Variadic Templates</span>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="projects-stack" id="projects-hidden" style="display: none;">
+
+                <!-- Project: Medical Identical Trace (Med Trace) -->
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <div>
+                            <h3 class="project-title" data-i18n="projects.medtrace_title">Medical Identical Trace (Med Trace)</h3>
+                            <span style="color: var(--theme-primary); font-size: 0.9rem; font-weight: 600;" data-i18n="projects.medtrace_subtitle">National Digital Medical Record System</span>
+                        </div>
+                        <span class="project-badge" data-i18n="projects.medtrace_badge">HealthTech | Startup Project</span>
+                    </div>
+
+                    <p class="project-desc" data-i18n="projects.medtrace_desc">
+                        A national digital medical-record platform where every citizen registers with their national ID through a mobile app, and all diseases, health information, doctor visits (with full visit details), and surgeries are recorded across their entire lifetime. It helps doctors diagnose with a complete patient history, gives emergency responders instant access to critical medical history to save lives, and produces accurate periodic national health statistics.
+                    </p>
+
+                    <div class="tags-group">
+                        <span class="telemetry-tag">HealthTech</span>
+                        <span class="telemetry-tag">Medical Records</span>
+                        <span class="telemetry-tag">System Design</span>
+                        <span class="telemetry-tag">Database Design</span>
+                        <span class="telemetry-tag">Data Analytics</span>
+                        <span class="telemetry-tag">Mobile App</span>
+                    </div>
+                </article>
+
+                <!-- Project: Monster Wrangler Game -->
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <div>
+                            <h3 class="project-title" data-i18n="projects.monster_title">Monster Wrangler Game</h3>
+                            <span style="color: var(--theme-primary); font-size: 0.9rem; font-weight: 600;" data-i18n="projects.monster_subtitle">2D Arcade Game Engine</span>
+                        </div>
+                        <span class="project-badge" data-i18n="projects.monster_badge">Pygame OOP</span>
+                    </div>
+
+                    <div class="ultratube-carousel monster-gallery">
+                        <div class="carousel-slide">
+                            <img src="assets\images\monster-wrangler-1.png" alt="Monster Wrangler Game - gameplay screenshot 1" loading="lazy">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets\images\monster-wrangler-2.png" alt="Monster Wrangler Game - gameplay screenshot 2" loading="lazy">
+                        </div>
+                    </div>
+
+                    <p class="project-desc" data-i18n="projects.monster_desc">
+                        A fast-paced 2D arcade game built with Pygame featuring object-oriented game state management, sprite animation, dynamic collision handling, and progressive difficulty.
+                    </p>
+
+                    <div class="tags-group">
+                        <span class="telemetry-tag">Python</span>
+                        <span class="telemetry-tag">Pygame</span>
+                        <span class="telemetry-tag">OOP</span>
+                    </div>
+                </article>
+
+                <!-- Project: Interstellar Front-End -->
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <div>
+                            <h3 class="project-title" data-i18n="projects.interstellar_title">Interstellar - Cinematic Movie Website</h3>
+                            <span style="color: var(--theme-primary); font-size: 0.9rem; font-weight: 600;" data-i18n="projects.interstellar_subtitle">Multi-Page Front-End Project with an Interactive Audio Player</span>
+                        </div>
+                        <span class="project-badge" data-i18n="projects.interstellar_badge">HTML + CSS + JavaScript</span>
+                    </div>
+
+                    <div class="ultratube-carousel interstellar-gallery">
+                        <div class="carousel-slide">
+                            <img src="assets\images\interstellar-home.webp" alt="Interstellar website - Home page" loading="lazy">
+                            <span class="slide-caption">Home</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets\images\interstellar-crew.png" alt="Interstellar website - Login &amp; Register page" loading="lazy">
+                            <span class="slide-caption">Crew</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets\images\about.png" alt="Interstellar website - Crew page" loading="lazy">
+                            <span class="slide-caption">About</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets\images\interstellar-login.png" alt="Interstellar website - Dashboard page" loading="lazy">
+                            <span class="slide-caption">Login &amp; Register</span>\
+                        </div>
+                    </div>
+
+                    <p class="project-desc" data-i18n="projects.interstellar_desc">
+                        A cinematic, multi-page front-end website themed around the movie Interstellar. The landing page pairs a full-screen space hero and movie synopsis with a custom vinyl-record player that plays and pauses the soundtrack, built with vanilla JavaScript, the HTML5 Audio API, and promise-based playback handling. The site also includes a modern split-panel Login/Register page with a password show/hide icon and social sign-up buttons, and a Crew page with glassmorphism cast cards, all connected through a clean navigation bar.
+                    </p>
+
+                    <div class="tags-group">
+                        <span class="telemetry-tag">HTML5</span>
+                        <span class="telemetry-tag">CSS3</span>
+                        <span class="telemetry-tag">JavaScript</span>
+                        <span class="telemetry-tag">HTML5 Audio API</span>
+                        <span class="telemetry-tag">DOM Manipulation</span>
+                        <span class="telemetry-tag">Multi-Page Website</span>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="read-more-wrapper">
+                <button class="read-more-btn" id="projects-toggle-btn" onclick="toggleSection('projects-hidden', 'projects-toggle-btn', 'Show More Projects', 'Show Less Projects')">
+                    <svg class="svg-icon" style="--icon: url('assets/icons/chevron-down.svg')"></svg> <span>Show More Projects</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- 7. CERTIFICATE -->
+        <section id="certificate">
+            <h2 class="section-title"><svg class="svg-icon" style="--icon: url('assets/icons/certificate.svg')"></svg> <span data-i18n="certs.title">Verified Certifications</span></h2>
+
+            <div class="certs-grid">
+                <!-- Cert 1: IBM -->
+                <article class="cert-card">
+                    <div class="cert-img-wrapper">
+                        <img src="assets\images\my ibm.png" alt="IBM Data Fundamentals certificate" loading="lazy">
+                    </div>
+                    <div class="cert-body">
+                        <h3 data-i18n="certs.c1_title">IBM Data Fundamentals</h3>
+                        <p data-i18n="certs.c1_desc">Core concepts in data processing, relational databases, data analytics frameworks, and data pipeline fundamentals.</p>
+                        <div class="cert-footer">
+                            <span class="cert-issuer" data-i18n-html="certs.c1_issuer"><svg class="svg-icon" style="--icon: url('assets/icons/database.svg')"></svg> IBM SkillsBuild</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Cert 2: IBM Data Science Professional -->
+                <article class="cert-card">
+                    <div class="cert-img-wrapper">
+                        <img src="assets\images\ibm data.png" alt="IBM Data Science Professional Certificate" loading="lazy">
+                    </div>
+                    <div class="cert-body">
+                        <h3 data-i18n="certs.c2_title">IBM Data Science Professional</h3>
+                        <p data-i18n="certs.c2_desc">End-to-end data science workflows across 12 courses, covering Python, SQL, data analysis, visualization, machine learning, and a capstone project.</p>
+                        <div class="cert-footer">
+                            <span class="cert-issuer" data-i18n-html="certs.c2_issuer"><svg class="svg-icon" style="--icon: url('assets/icons/database.svg')"></svg> IBM via Coursera</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Cert 3: CS50 Intro to Databases with SQL -->
+                <article class="cert-card">
+                    <div class="cert-img-wrapper">
+                        <img src="assets\images\cs50 sql.png" alt="CS50's Introduction to Databases with SQL certificate" loading="lazy">
+                    </div>
+                    <div class="cert-body">
+                        <h3 data-i18n="certs.c3_title">CS50's Intro to Databases with SQL</h3>
+                        <p data-i18n="certs.c3_desc">Relational database design, SQL querying, indexing, and query optimization, completed through seven problem sets and a final project.</p>
+                        <div class="cert-footer">
+                            <span class="cert-issuer" data-i18n-html="certs.c3_issuer"><svg class="svg-icon" style="--icon: url('assets/icons/server.svg')"></svg> Harvard University</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- 8. CONTACT ME -->
+        <section id="contact">
+            <h2 class="section-title"><svg class="svg-icon" style="--icon: url('assets/icons/paper-plane.svg')"></svg> <span data-i18n="contact.title">Contact Me</span></h2>
+
+            <div class="contact-grid">
+                <!-- Email Card -->
+                <a href="mailto:arzottkx@gmail.com" class="contact-card" aria-label="Send Email">
+                    <div class="contact-card-icon">
+                        <svg class="svg-icon" style="--icon: url('assets/icons/envelope.svg')"></svg>
+                    </div>
+                    <div class="contact-card-content">
+                        <span class="contact-card-label" data-i18n="contact.email_label">Email</span>
+                        <span class="contact-card-value">arzottkx@gmail.com</span>
+                    </div>
+                    <div class="contact-card-arrow">
+                        <svg class="svg-icon" style="--icon: url('assets/icons/arrow-up-right-from-square.svg')"></svg>
+                    </div>
+                </a>
+
+                <!-- LinkedIn Card -->
+                <a href="https://www.linkedin.com/in/ahmed-nasser-99a52b377/" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="LinkedIn Profile">
+                    <div class="contact-card-icon">
+                        <svg class="svg-icon" style="--icon: url('assets/icons/linkedin-in.svg')"></svg>
+                    </div>
+                    <div class="contact-card-content">
+                        <span class="contact-card-label" data-i18n="contact.linkedin_label">LinkedIn</span>
+                        <span class="contact-card-value">linkedin.com/in/ahmed-nasser-99a52b377</span>
+                    </div>
+                    <div class="contact-card-arrow">
+                        <svg class="svg-icon" style="--icon: url('assets/icons/arrow-up-right-from-square.svg')"></svg>
+                    </div>
+                </a>
+
+                <!-- GitHub Card -->
+                <a href="https://github.com/ahmednasser-io" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="GitHub Profile">
+                    <div class="contact-card-icon">
+                        <svg class="svg-icon" style="--icon: url('assets/icons/github.svg')"></svg>
+                    </div>
+                    <div class="contact-card-content">
+                        <span class="contact-card-label" data-i18n="contact.github_label">GitHub</span>
+                        <span class="contact-card-value">github.com/ahmednasser-io</span>
+                    </div>
+                    <div class="contact-card-arrow">
+                        <svg class="svg-icon" style="--icon: url('assets/icons/arrow-up-right-from-square.svg')"></svg>
+                    </div>
+                </a>
+
+                <!-- Location Card -->
+                <div class="contact-card location-card" aria-label="Location">
+                    <div class="contact-card-icon">
+                        <svg class="svg-icon" style="--icon: url('assets/icons/location-dot.svg')"></svg>
+                    </div>
+                    <div class="contact-card-content">
+                        <span class="contact-card-label" data-i18n="contact.location_label">Location</span>
+                        <span class="contact-card-value" data-i18n="contact.location_val">Cairo, Egypt</span>
+                    </div>
+                    <div class="contact-card-arrow">
+                        <svg class="svg-icon" style="--icon: url('assets/icons/earth-africa.svg')"></svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. CONTACT FORM -->
+        <section id="message" class="cf-section">
+            <div class="cf-layout">
+                <div class="cf-intro">
+                    <span class="cf-status"><span class="cf-dot"></span><span data-i18n="form.status">Open to collaboration</span></span>
+                    <h2 class="cf-heading" data-i18n="form.heading">Got an idea? Let's make it real.</h2>
+                    <p class="cf-lead" data-i18n="form.lead">Tell me what you're building, what's stuck, or what you wish existed. I read every message myself and reply by email.</p>
+                </div>
+
+                <form class="cf-card" id="contactForm" action="https://formspree.io/f/xaenrngk" method="POST">
+                    <div class="cf-row">
+                        <input type="text" name="name" id="cf-name" required maxlength="80" autocomplete="name" placeholder="Your name" data-i18n-placeholder="form.name" aria-label="Your name">
+                        <input type="email" name="email" id="cf-email" required maxlength="120" autocomplete="email" placeholder="Your email" data-i18n-placeholder="form.email" aria-label="Your email">
+                    </div>
+
+                    <div class="cf-textarea-wrap">
+                        <textarea name="message" id="cf-message" required minlength="10" maxlength="1500" rows="6" placeholder="What's on your mind?" data-i18n-placeholder="form.message" aria-label="Your message"></textarea>
+                        <span class="cf-counter"><span id="cfCount">0</span> / 1500</span>
+                    </div>
+
+                    <input type="text" name="_gotcha" class="cf-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+                    <input type="hidden" name="_subject" value="New message from your portfolio">
+
+                    <button type="submit" class="cf-submit" id="cfSubmit">
+                        <span class="cf-submit-label" data-i18n="form.submit">Start the conversation</span>
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </button>
+
+                    <p class="cf-feedback" id="cfFeedback" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Image Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal" aria-modal="true" role="dialog">
+        <div class="lightbox-container">
+            <button class="lightbox-close-btn" id="lightboxClose" aria-label="Close Gallery">&times;</button>
+            <button class="lightbox-nav-btn lightbox-prev-btn" id="lightboxPrev" aria-label="Previous Image">
+                <svg class="svg-icon" style="--icon: url('assets/icons/chevron-left.svg')"></svg>
+            </button>
+            <img src="" alt="Enlarged Preview" class="lightbox-image" id="lightboxImg">
+            <button class="lightbox-nav-btn lightbox-next-btn" id="lightboxNext" aria-label="Next Image">
+                <svg class="svg-icon" style="--icon: url('assets/icons/chevron-right.svg')"></svg>
+            </button>
+            <div class="lightbox-counter" id="lightboxCounter">1 / 1</div>
+        </div>
+    </div>
+
+    <!-- Floating Language Toggle Button -->
+    <button class="lang-toggle" id="lang-toggle" aria-label="Switch Language" title="تغيير اللغة إلى العربية">
+        <svg class="svg-icon" style="--icon: url('assets/icons/language.svg')"></svg>
+        <span class="lang-toggle-text">عربي</span>
+    </button>
+
+    <!-- Floating Theme Toggle Button -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Light and Dark Mode">
+        <svg class="svg-icon" style="--icon: url('assets/icons/sun.svg')"></svg>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+
+</body>
+</html>
